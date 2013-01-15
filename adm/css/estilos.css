@@ -1,0 +1,115 @@
+a{color:#fff; text-decoration:none;}
+
+#caja_opi{
+
+	width:240px;
+	display:none;
+	padding:0px;
+	background-color:#302B23;
+	position:fixed;
+ 	bottom:-1px; 
+	height:280px;
+	-webkit-border-radius: 2px 2px 0px 0px;
+	-khtml-border-radius: 2px 2px 0px 0px;
+	-moz-border-radius: 2px 2px 0px 0px;
+	border-radius: 2px 2px 0px 0px;
+    -ms-border-radius: 2px 2px 0px 0px;
+    -o-border-radius: 2px 2px 0px 0px;
+	margin:0 0 0 80%;	
+	
+}
+
+               
+#mostrar_opi
+{
+border-left: 10px solid #ED2024;
+width:224px;
+height:17px;
+float:right;
+position:fixed;
+bottom:-1px;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+margin:0 0 0 80%;
+padding:3px;
+background-color:#302B23;
+-webkit-border-radius: 2px 2px 0px 0px;
+-khtml-border-radius: 2px 2px 0px 0px;
+-moz-border-radius: 2px 2px 0px 0px;
+border-radius: 2px 2px 0px 0px;
+-ms-border-radius: 2px 2px 0px 0px;
+-o-border-radius: 2px 2px 0px 0px;}
+
+#titulo_opi
+{height: 22px; 
+float:left;
+width: 234px;
+color:#ffffff;
+text-align:center;
+font-weight:bold;
+padding: 3px;
+border-radius: 2px 2px 0px 0px;
+background-color:#2D2D2D}
+
+#mensaje
+{ width:234px; 
+overflow:auto;
+margin-bottom: -13px;
+padding: 3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13.5px;
+
+}
+
+#caja_opi .textarea
+{width:234px;
+height: 171px;
+margin: 3px;
+resize: none;
+padding: 3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13.5px;
+-webkit-border-radius: 2px 2px 0px 0px;
+-khtml-border-radius: 2px 2px 0px 0px;
+-moz-border-radius: 2px 2px 0px 0px;
+border-radius: 2px 2px 0px 0px;
+-ms-border-radius: 2px 2px 0px 0px;
+-o-border-radius: 2px 2px 0px 0px;
+border: solid 1px #CCC;
+
+} 
+
+
+#caja_opi .textarea:focus
+{
+	border: solid #0C0 2px;
+	
+}  
+.submit{
+
+background-color: #4DB209;
+cursor: pointer;
+margin-left: 10px;
+width:115px;
+line-height: 27px;
+border: 1px solid #4DB209;
+color:#FFFFFF;
+font-family:'Myriad Pro',Arial,Helvetica,sans-serif;
+	font-size:14px;
+        font-weight:bold;
+        height:28px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+-border-radius: 2px;
+text-align: center;
+margin-top: 1px;
+
+float: right;
+
+}
+
+.submit:hover{
+	background-color:#00CC00;
+        border-color:#00CC00;
+}

@@ -1,0 +1,100 @@
+html,body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, header, footer, hgroup, menu, nav, section, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+border-image: initial;
+line-height: 13px;
+font-family: 'Open Sans',arial,sans-serif;
+}
+.main{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+/*    max-width: 1000px;*/
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+.m_c{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+    z-index: 9;
+}
+.titulo{
+    width: 223px;
+left: 0;
+position: relative;
+color: black;
+font-size: 27px;
+font-family: league-gothic-1 ,Impact,sans-serif;
+text-align: center;
+line-height: 35px;
+float: left;
+}
+.bus{
+float: left;
+position: relative;
+width: auto;
+left: 36px;
+top: 5px;
+}
+.bus input{
+    padding: 3px;
+position: relative;
+width: 428px;
+height: 19px;
+z-index: 1;
+}
+.head{
+    position: fixed;
+background: whiteSmoke;
+padding: 10px 0px;
+border: 1px solid #E0E0E0;
+width: 100%;
+z-index: 10;
+box-shadow: 0px 0px 17px #62686D;
+}
+.left{
+position: fixed;
+height: 100%;
+width: 17%;
+background: whiteSmoke;
+border: 1px solid #E0E0E0;
+border-top: 0;
+float: left;
+margin-top: 57px;
+z-index: 11;
+}
+.stil_menu{
+   font-weight: bold;
+font-size: 13px;
+position: relative;
+text-align: left;
+padding:  10px 0px 10px 10px;
+border-bottom: 1px solid #c7c7c7;
+;
+
+}
+.m_c_p{
+margin: 10px;
+width: 81%;
+float: right;
+height: auto;
+background: black;
+overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: #575656;
+}

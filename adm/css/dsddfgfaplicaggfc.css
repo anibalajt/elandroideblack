@@ -1,0 +1,17 @@
+    #menu li a.aplisel, #menu li a.aplisel:hover {
+
+-webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-topright: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+color: white;
+text-shadow: 0 1px 0 black;
+background: #ED2024;
+border-top: 1px solid #ED2024;
+border-bottom: 1px solid #ED2024;
+margin-top: -1px;
+height: 37px;
+box-shadow: 0 0 10px #000;
+}

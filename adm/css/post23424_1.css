@@ -1,0 +1,114 @@
+.not {
+background: url(../img/not.png)no-repeat;;
+width: 87px;
+height: 93px;
+position: absolute;
+left: -1px;
+top: -1px;
+}
+       .apli:hover .imaggsd{
+            display: none;
+     }
+     .asde{
+         font: bold;
+         display: none;
+              font-size: 14px;
+     }
+     .apli:hover .asde{
+      display: block;   
+     }
+
+ 
+     
+     .apli{
+         border: 1px solid whitesmoke;
+         padding:8px;
+         width: 189px;
+         height: 165px;
+         float: left;
+     }
+     a{
+         text-decoration: none;
+         color: #A1A1A1;
+         cursor: pointer;
+     }
+     .nombreapli{
+         font-size: 14px;
+font-weight: bold;
+color: #262626;
+     }
+     .imaggsd{
+      width: 192px;
+height: 119px;
+display: block;
+position: relative;
+     }
+   .tit a {
+height: 30px;
+line-height: 30px;
+color: #fff;
+text-decoration: none;
+font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+letter-spacing: -1px;
+font-size: 18px;
+font-weight: bold;
+float: left;
+padding-left: 21px;
+}
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+
+.separa {
+background-color: #202020;
+
+height: 32px;
+margin: 10px 0;
+box-shadow: 0 0 5px #000;
+width: 634px;
+}
+
+.display{
+display: table;
+width: 622px;
+left: 10px;
+margin-bottom: 10px;
+box-shadow: 0 0 5px #000;
+background: white;
+position: relative;}
+
+.displa{
+    width: 960px;
+    display: table;
+
+left: 10px;
+margin-bottom: 10px;
+box-shadow: 0 0 5px #000;
+background: white;
+position: relative;}
+
+
+    .aplic:hover .imaggsd{
+            display: none;
+     }
+     .aplic:hover .asde{
+      display: block;   
+     }   
+     .aplic:hover {
+position: relative;
+width: 218px;
+height: 161px;
+        border:3px solid rgba(0,0,0,0);
+ -webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+  -moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+  box-shadow:0 0 18px rgba(0,0,0,0.4);
+  background: whiteSmoke;
+}
+     .aplic {
+border: 1px solid whiteSmoke;
+padding: 8px;
+width: 222px;
+height: 165px;
+float: left;
+}

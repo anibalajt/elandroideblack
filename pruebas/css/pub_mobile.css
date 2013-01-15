@@ -1,0 +1,33 @@
+section.contenido {
+width: auto;
+float: right;
+background: rgba(255, 255, 255, 0.61);
+position: relative;
+top: 0;
+
+padding: 8px;
+}
+.list {
+width: 100%;
+display: inline-table;
+/*height: 500px;*/
+background: white;
+position: relative;
+margin-bottom:  15px;
+border: 1px solid #E2E2E2;
+}
+.list:hover {
+-webkit-box-shadow: 0 0 10px #E2E2E2;
+-moz-box-shadow: 0 0 10px #E2E2E2;
+-o-box-shadow: 0 0 10px #E2E2E2;
+-ms-box-shadow: 0 0 10px #E2E2E2;
+box-shadow: 0 0 10px #E2E2E2;
+
+}
+.content{
+    height: auto;
+    position: relative;
+    width: auto;
+    margin-bottom: 20px;
+    margin: 60px 8px;
+}

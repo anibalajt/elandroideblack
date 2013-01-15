@@ -1,0 +1,13 @@
+
+<script> 
+function verificar(o){ 
+    var s=o.value.split('\n').length;
+    o.rows=(o.value.length/o.cols)+s;
+} 
+//$(window).one("load", function(){
+onload=function(){
+    setInterval(function(){verificar(document.getElementById('textarea'));},30);
+}
+</script> 
+
+  <textarea  name="textarea" cols="20" rows="5" id="textarea"></textarea> 

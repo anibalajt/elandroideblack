@@ -1,0 +1,42 @@
+
+#searchbo {
+float: left;
+height: 36px;
+width: 200px;
+margin-left: 10px;
+background: #282828  no-repeat;
+position: relative;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+
+}
+
+#display
+{
+width: 430px;
+height: auto;
+border-top: none;
+border: 3px solid transparent;
+box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+overflow: hidden;
+background: whiteSmoke;
+top: 29px;
+left: 1px;
+}
+.display_box
+{
+
+font-size: 14px;
+padding: 7px;
+position: relative;
+z-index: 3;
+
+}
+
+.display_box:hover
+{
+background-color:#302B23;
+ 
+color:#FFFFFF;
+color: white
+}
